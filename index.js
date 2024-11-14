@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://rablo-frontend-git-newmain-rohan-makwanas-projects.vercel.app/","http://localhost:5173"],
+    origin: ["","http://localhost:5173"],
     credentials: true,
   })
 );
